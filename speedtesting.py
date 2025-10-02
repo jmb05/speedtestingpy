@@ -46,5 +46,5 @@ write_data(filename_lan, lan_data)
 #    write_data(filename_wlan, wlan_data)
 #else:
 #    print('Error disabling ethernet')
-
+print("Finished speedtest " + datetime.datetime.now().strftime("%H:%M:%S"))
 
