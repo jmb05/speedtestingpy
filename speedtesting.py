@@ -29,6 +29,7 @@ def write_data(filename, data):
         writer.writerow(data) 
 
 now = datetime.datetime.now()
+print("Starting speedtest " + now.strftime("%H:%M:%S"))
 date = now.strftime("%d-%m-%Y")
 filename_lan = 'results_' + date + '_lan.csv'
 filename_wlan = 'results_' + date + '_wlan.csv'

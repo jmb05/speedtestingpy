@@ -37,5 +37,6 @@ plt.figure(figsize=[6,6])
 plt.plot(time_data, ping_data)
 plt.plot(time_data, jitter_data)
 plt.legend(['ping', 'jitter'])
+plt.gcf().autofmt_xdate()
 plt.savefig("ping_jitter.svg")
 
